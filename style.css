@@ -1,5 +1,15 @@
-.name-list{margin:auto; }
-.centro{text-align: center;}
+.centro-list{
+    display: table;
+    margin: 0 auto;
+    list-style-type: none
+}
+.navig {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.centro{text-align: center;
+    margin: 0 auto;}
 .back {background-color: darkcyan; color: blanchedalmond;}
 .titles{
 font-style:inherit; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
