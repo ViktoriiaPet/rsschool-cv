@@ -1,14 +1,13 @@
+.name-list{margin:auto; }
+
+
 .titles{
-font-style: normal; font-family: 'Times New Roman', Times, serif;
+font-style:inherit; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .adress{
-font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
-.list{
-font-style: normal; font-family: 'Times New Roman', Times, serif;
-}
-
 .paragraph{
 font-style: normal; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: medium; font-weight: 500;
 }
