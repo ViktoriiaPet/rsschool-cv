@@ -1,6 +1,6 @@
 .name-list{margin:auto; }
-
-
+.centro{text-align: center;}
+.back {background-color: darkcyan; color: blanchedalmond;}
 .titles{
 font-style:inherit; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
