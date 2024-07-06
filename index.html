@@ -7,28 +7,31 @@
     <link href="style.css" rel="stylesheet">
 
 </head>
-<body class="centro">
- <div><header class="centro-list">
+<body>
+<header>
+   <div class="container">
     <h1 class="titles name-list" >Petukhova Viktoriia</h1>
     <img src="avatar.jpg" alt="Avatar" width="150">
+   </div>
  </header>
  <nav class="navig">
-   <h2>Points</h2>
    <ul>
-      <li>About me</li>
-      <li>Programming languages</li>
-      <li>Languages</li>
-      <li>Contacts</li>
+      <li><a href="#aboutMe">About me</a></li>
+      <li><a href="#languagesProg">Programming languages</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#code">Code`s example</a></li>
+      <li><a href="#contacts">Contacts</a></li>
    </ul>
  </nav>
-</div>
- <main class="centro-list">
+
+ <main>
+   <div id="aboutMe" class="container">
    <h2 class="titles">About me</h2>
     <h3 class="paragraph">My goal is to obtain sufficient knowledge, skills and competencies for employment in the IT field. I like to learn new things and make progress in creating new projects. My strengths are perseverance and self-discipline</h3>
     <h3 class="paragraph">I have a bachelor’s degree in sociology at the Amur State University; I also completed half of the course at the university Hihger School of Economics in St.Petersburg in the direction of analyst.</h3>
     <h2 class="titles">Programming languages:</h2>
-    <div class="centro">
-      <ul class="centro-list"> 
+    <div id="languagesProg">
+      <ul> 
       <li>R</li>
       <li>sql (base-level)</li>
       <li>python (base),</li>
@@ -36,27 +39,29 @@
       <li>picso.</li>
    </ul></div>
     
-   <h2 class="titles">Languages:</h2>
-   <ul class="centro-list"> 
+   <h2 id="languages" class="titles">Languages:</h2>
+   <ul> 
          <li> Russian(native-speaker)</li> 
          <li> English (B1)</li> 
          <li> Spanish(B1)</li> 
          <li> Catalan (A2).</li>
-   </ul>
-<div><p class="titles"> Code`s example </p>
+   </ul></div>
+<div id="code" class="container"><p class="titles"> Code`s example </p>
    <code class="back">function multiply(a, b){
    return a * b
  }</code></div>
  </main>
- <footer class="centro">
+ <footer>
+   <div id="contacts" class="container">
    <h2 class="titles">Contacts:</h2>
-   <ul class="centro-list">
+   <ul>
    <li> e-mail: Viktoriiap0205199@gmail.com</li>
    <li> discord: Viktoriiapet</li>
    <li> https://github.com/ViktoriiaPet </li></ul>
    <p>2024</p>
    <div><img src="Logo.png" alt="Logo" height="150" width="150"></div>
    <p><a href="https://rs.school/courses/javascript-preschool-ru">Link to course</a></p>
+   </div>
 </footer>
 </body>
 </html>

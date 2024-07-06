@@ -1,15 +1,21 @@
-.centro-list{
-    display: table;
+body {
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.container {
+    max-width: 1440px;
     margin: 0 auto;
-    list-style-type: none
-}
+  }
+
 .navig {
-    position: fixed;
-    top: 0;
-    left: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 }
-.centro{text-align: center;
-    margin: 0 auto;}
+
 .back {background-color: darkcyan; color: blanchedalmond;}
 .titles{
 font-style:inherit; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
