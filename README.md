@@ -1,1 +1,1 @@
-# rsschool-cv
+https://viktoriiapet.github.io/rsschool-cv/
