@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     min-height: 100vh;
     margin: 0; padding: 0;
@@ -9,13 +12,27 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
 
 .navig {
         display: flex;
         justify-content: flex-end;
         align-items: center;
 }
-
+.nav-list {
+    list-style: none;
+  }
+.nav-space {
+    padding: 0 20px;
+    line-height: 50px;
+  }
 .back {background-color: darkcyan; color: blanchedalmond;}
 .titles{
 font-style:inherit; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
